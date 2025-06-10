@@ -1,0 +1,7 @@
+If c is a variable of type char, which one of the following statements is illegal?
+(a) i += c;  /* i has type int */  legal
+(b) c = 2 * c - 1; legal
+(c) putchar(c); legal
+(d) printf(c); illegal
+
+

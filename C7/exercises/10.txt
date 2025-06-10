@@ -1,0 +1,14 @@
+Suppose that i is a variable of type int, j is a variable of type long, and k is a variable of
+type unsigned int. What is the type of the expression i + (int) j * k?
+
+before
+i int
+j float
+k uint
+
+after
+float(j) converts to int
+j converts to uint to operate with k
+i converts to uint to operate with k
+
+R= uint

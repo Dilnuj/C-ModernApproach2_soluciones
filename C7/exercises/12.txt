@@ -1,0 +1,23 @@
+
+Suppose that i is a variable of type int, f is a variable of type float, and d is a variable
+of type double. Explain what conversions take place during the execution of the following
+statement:
+d = i + f;
+
+f float 
+d double
+f float
+
+i converts to float to operate,
+
+f converts to double for more  (""future"")precision and to be te correct type
+
+does it convert before or after the operation is done? idk let me check the compiler = voodoo atm
+
+it converts exactly where i + f (float) promotes itself to double, this son of a bitch autopromotes itself two times
+and loses precision we need to put cast before if we want the operation to be precise.
+
+
+
+
+

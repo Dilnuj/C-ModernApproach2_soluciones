@@ -1,0 +1,14 @@
+Assume that a program contains the following declarations:
+char c = '\1';
+short s = 2;
+int i = -3;
+long m = 5;
+float f = 6.5f;
+double d = 7.5;
+Give the value and the type of each expression listed below
+(a) c * i -3 int
+(c) f / c float 6.5
+(e) f - d -1.0 double
+(b) s + m 7 long
+(d) d / s 3.75 double
+(f) (int)f 6 int

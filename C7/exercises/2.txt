@@ -1,0 +1,11 @@
+Which of the following are not legal constants in C? Classify each legal constant as either
+integer or floating-point.
+
+(a) 077 legal
+(b) 0x77 legal
+(c) 0XABC legal
+(a) 010E2  legal
+(b) 32.1E+5 legal
+(c) 0790 illegal 9 not a valid digit on octal
+(d) 100_000  illegal
+(e) 3.978e-2 legal
